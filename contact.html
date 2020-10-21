@@ -21,14 +21,11 @@
             </div>
         </header>
 
-        <form class="contactForm" method="POST" action="contact.php">
-            <label> Name</label>
-            <input type="text" name="name">
-            <label> E-Mail</label>
-            <input type="email" name="email">
-            <label> Message</label>
-            <textarea name="message"></textarea>
-            <button class="submitButton" type="submit">Submit</button>
+        <form action="contact.php" method="POST">
+            <p>Name</p> <input type="text" name="name">
+            <p>Email</p> <input type="text" name="email">
+            <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+            <input type="submit" value="Send"><input type="reset" value="Clear">
             </form>
 
         <footer>

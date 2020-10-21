@@ -71,7 +71,7 @@ header a:hover {
 
 #showcase{
     min-height: 400px;
-    background: url("img/flowers.jpg") no-repeat 0 -700px;
+    background: url("img/flowers.jpg") no-repeat  -700px;
     text-align: center;
     color: #ffffff;
 }
@@ -125,6 +125,11 @@ footer {
     width: 90%;
     padding: 10px;
     margin: 10px;
+}
+.contactForm{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .submitButton {
